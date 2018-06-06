@@ -47,7 +47,8 @@ let app;
                     break;
             }
         }
-        catch {
+        catch(err) {
+            console.log(err);
             console.warn("Something went wrong when switching pages");
         }
     }
