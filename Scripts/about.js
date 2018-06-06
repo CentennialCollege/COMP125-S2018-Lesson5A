@@ -6,7 +6,7 @@
     }
 
     function AboutContent() {
-        console.log("About Content accessed...");
+        console.log("%c About Content accessed...", "font-weight:bold; font-size: 20px;");
         let myNumber = ReturnPI();
         console.log("My Funky Number: " + myNumber);
 

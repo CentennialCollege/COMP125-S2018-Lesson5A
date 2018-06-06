@@ -1,7 +1,7 @@
 (function(content){
 
     function ContactContent() {
-        console.log("Contact Content Accessed...");
+        console.log("%c Contact Content Accessed...", "font-weight:bold; font-size: 20px;");
         
         document.getElementsByClassName("card-title")[0].textContent = "Contact You!";
 
@@ -19,6 +19,17 @@
         // add the HTML Element to the page somewhere 
         // in this case I'm attaching a button to the first forml element
         document.forms[0].appendChild(cancelButton);
+
+        document.title = "Contact";
+        // use the history object to wipe out the url 
+        history.pushState("", document.title, "/contact");
+
+
+        // use the location object to output my pathname
+        console.log(location.pathname);
+
+        // show your hostname - domain name
+        console.log(location.hostname);
 
     }
 

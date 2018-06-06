@@ -14,7 +14,7 @@ let content;
     }
 
     function HomeContent() {
-        console.log("Home Content Accessed...");
+        console.log("%c Home Content Accessed...", "font-weight:bold; font-size: 20px;");
         let AboutButton = document.getElementById("AboutButton");
 
         AboutButton.textContent = "About";

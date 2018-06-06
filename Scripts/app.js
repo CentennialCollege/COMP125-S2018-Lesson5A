@@ -12,8 +12,8 @@ let app;
         // local variable
         let title = document.title;
 
-        console.log("App Started!");
-        console.log("----------------------------");
+        console.log("%c App Started!", "font-weight:bold; font-size: 20px;");
+        console.log("%c ----------------------------", "font-weight:bold; font-size: 20px;");
         console.log("Title: " + title);
 
         try {
