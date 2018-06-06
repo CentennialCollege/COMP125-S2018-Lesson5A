@@ -14,7 +14,7 @@ let content;
     }
 
     function HomeContent() {
-        console.log("Home Content Triggered...");
+        console.log("Home Content Accessed...");
         let AboutButton = document.getElementById("AboutButton");
 
         AboutButton.textContent = "About";

@@ -8,14 +8,6 @@ let app;
 
     // About Button Click event handler
 
-
-
-
-
-    function ContactContent() {
-        // does nothing right now
-    }
-
     function Start() {
         // local variable
         let title = document.title;
@@ -29,7 +21,6 @@ let app;
 
             switch (title) {
                 case "COMP125 - Home":
-                    //HomeContent();
 
                     content.HomeContent();
                     break;
@@ -39,7 +30,7 @@ let app;
                     break;
 
                 case "COMP125 - Contact":
-                    ContactContent();
+                    content.ContactContent();
                     break;
 
                 default:

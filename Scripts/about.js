@@ -6,7 +6,7 @@
     }
 
     function AboutContent() {
-        console.log("About Content triggered...");
+        console.log("About Content accessed...");
         let myNumber = ReturnPI();
         console.log("My Funky Number: " + myNumber);
 
